@@ -45,14 +45,11 @@ This is a companies portfolio web that does the following:
 
 ### Application features
 
-  1. Displays Form For Entering your email and contact and message
-      - INPUT: "User's email"
-      -INPUT:  "usser's contact"
-      -INPUT: "user's message"
-  2. Displays an Error Message if one of the form is left Blank or if all
-      - INPUT: ""
-      - OUTPUT: "Displays Error Message"
-  
+  1. Displays Form For Entering your order and price
+      - INPUT: "size,price"
+      -INPUT:  "toppings"
+      -INPUT: "location"
+ 
 
 ### Contributing to the Application
 1. git clone
