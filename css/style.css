@@ -1,0 +1,32 @@
+/* HOME PAGE/*/
+body {
+  background-color:blue;
+  height: 900px;
+}
+h1{
+  color:blue;
+}
+
+.jumbotron {
+  background-color:whitE;
+  opacity: 0.8;
+  text-align: center;
+  color:black;
+  font-size: x-large;}
+
+
+#ORDER {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 700;
+  color:yellow;
+  border: solid blue;
+  border-radius: 50px;
+  margin-right: 90px;
+  margin-left: 590px;
+}
+
+#ORDER:hover {
+  color: #ffffff;
+  background:yellowgreen;
+}
+

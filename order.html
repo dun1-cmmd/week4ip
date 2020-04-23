@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <title>Orders</title>
+  </head>
+  <body>
+    <h1>Make your order</h1>
+    <div class="card" id="pizza">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card-body">
+            <div class="initially-hidden">
+              <span class="clickable">
+                <img src="images/img5.jpeg">
+                <h3>Napoletana</h3>
+          
+              </span>
+            </div>
+            <div class="initially-showing">
+              <div class="form-group">
+                <p>3 maximum on order</p>
+                <label for="size">Size</label>
+                <select class="form-control" id="pizza-size">
+                  <option value="small">Regular - Ksh 1000</option>
+                  <option value="medium">Medium - Ksh 1200</option>
+                  <option value="large"> Large - Ksh 1500</option>
+                  <option value="mega">Mega - Ksh 2000</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="crust">crust</label>
+                <select class="form-control" id="crust">
+                  <option value="small">Regular - Ksh 500</option>
+                  <option value="medium">Medium - Ksh 900</option>
+                  <option value="large"> Large - Ksh 1050</option>
+                  <option value="mega">Mega - Ksh 1500</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="toppings">Toppings</label><br />
+                  <input type="checkbox" name="toppings" id="toppings" value="soda" /> soda
+                  <br />
+                  <input type="checkbox" name="toppings" value="sauce" /> sauce
+                  <br />
+                  <input type="checkbox" name="toppings" value="bites" /> bites
+                  <br />
+              </div>
+              <button type="submit" class="btn-success btn mt-3" id="orderbtn">place order</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3">
+          <div class="card-body">
+            <div class="initially-hidden">
+              <span class="clickable">
+                <img src="images/img1.jpg">
+                <h3> Pizza Fritta</h3>
+              </span>
+            </div>
+            <div class="initially-showing">
+              <div class="form-group">
+                <p>4 maximum on order</p>
+                <label for="pizza-size">Size</label>
+                <select class="form-control" id="pizza-size">
+                  <option value="small">Regular - Ksh 1000</option>
+                  <option value="medium">Medium - Ksh 1200</option>
+                  <option value="large"> Large - Ksh 1500</option>
+                  <option value="mega">Mega - Ksh 2000</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="pizza-crust">Crust</label>
+                <select class="form-control" id="pizza-crust">
+                  <option value="small">Regular - Ksh 500</option>
+                  <option value="medium">Medium - Ksh 900</option>
+                  <option value="large"> Large - Ksh 1050</option>
+                  <option value="mega">Mega - Ksh 1500</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="toppings">Toppings</label><br />
+                <input type="checkbox" name="toppings" id="toppings" value="soda" /> soda
+                <br />
+                <input type="checkbox" name="toppings" value="sauce" /> sauce
+                <br />
+                <input type="checkbox" name="toppings" value="bites" /> bites
+                  <br />
+              </div>
+              <button type="submit" class="btn-success btn mt-3" id="orderbtn">place order</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-body">
+            <div class="initially-hidden">
+              <span class="clickable">
+                <img src="images/img4.jpg">
+                <h3>Pizza Siciliana</h3>
+          
+              </span>
+            </div>
+            <div class="initially-showing">
+              <div class="form-group">
+                <p>2 maximum on order</p>
+                <label for="pizza-size">Size</label>
+                <select class="form-control" id="pizza-size">
+                  <option value="small">Regular - Ksh 1000</option>
+                  <option value="medium">Medium - Ksh 1200</option>
+                  <option value="large"> Large - Ksh 1500</option>
+                  <option value="mega">Mega - Ksh 2000</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="pizza-crust">Crust</label>
+                <select class="form-control" id="pizza-crust">
+                  <option value="small">Regular - Ksh 500</option>
+                  <option value="medium">Medium - Ksh 900</option>
+                  <option value="large"> Large - Ksh 1050</option>
+                  <option value="mega">Mega - Ksh 1500</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="toppings">Toppings</label><br />
+                <input type="checkbox" name="toppings" id="toppings" value="soda" /> soda
+                <br />
+                <input type="checkbox" name="toppings" value="sauce" /> sauce
+                <br />
+                <input type="checkbox" name="toppings" value="bites" /> bites
+                  <br />
+              </div>
+              <button type="submit" class="btn-success" id="orderbtn">place order</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-body">
+            <div class="initially-hidden">
+              <span class="clickable">
+                <img src="images/img3.jpg">
+                <h3>Pizza Napoletana</h3>
+              </span>
+            </div>
+            <div class="initially-showing">
+              <div class="form-group">
+                <p>2 minimum per oder</p>
+                <label for="pizza-size">Pizza Size</label>
+                <select class="form-control" id="pizza-size">
+                  <option value="small">Regular - Ksh 1000</option>
+                  <option value="medium">Medium - Ksh 1200</option>
+                  <option value="large"> Large - Ksh 1500</option>
+                  <option value="mega">Mega - Ksh 2000</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="pizza-crust">Pizza Crust</label>
+                <select class="form-control" id="pizza-crust">
+                  <option value="small">Regular - Ksh 500</option>
+                  <option value="medium">Medium - Ksh 900</option>
+                  <option value="large"> Large - Ksh 1050</option>
+                  <option value="mega">Mega - Ksh 1500</option>
+                </select>
+                <div class="form-group">
+                  <label for="toppings">Toppings</label><br />
+                  <input type="checkbox" name="toppings" id="toppings" value="soda" /> soda
+                  <br />
+                  <input type="checkbox" name="toppings" value="sauce" /> sauce
+                  <br />
+                  <input type="checkbox" name="toppings" value="bites" /> bites
+                    <br />
+                </div>
+              <button type="submit" class="btn-success" id="orderbtn">place order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!--Checkout-->
+    <div class="col-md-6">
+      <div class="card mt-1">
+        <div class="card-title d-inline-flex">
+          <h3 class="p-4">seletced items</h3>
+          <i class="p-4 fa fa-shopping-cart total"></i>
+        </div>
+        <div class="card-body">
+          <table id="table">
+            <tr></tr>
+          </table>
+          <div id="items"></div>
+          <a href="#order-section">
+              <div class="checkout">
+                  <button class="btn-checkout" data-toggle="modal" data-target="#exampleModalCenter" id="gettotal">
+                      Checkout
+                  </button>
+              </div>
+          </a>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">Confirm price</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>TOTAL KSH<span id="money" style="color:black;"></span></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary" id="myModel" data-dismiss="modal">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
