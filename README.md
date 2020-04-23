@@ -11,11 +11,7 @@ This is a pizza webapp that offers the following pizza type:
 
    Napoletana 
 
-
-     DEVELOPMENT
-                       we have a team of developers and software engineers 
-                        who not only build upto standard programs and softwares but know 
-                        how to handle and relate with clients.
+   Pizza Fritta
 
       DESIGN
                          We offer the best designs withing the country
