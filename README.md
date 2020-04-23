@@ -31,7 +31,7 @@ This is a companies portfolio web that does the following:
 ## Installation
 
   - Open terminal{Ctrl+Alt+T}
-  - git clone https://github.com/dun1-cmmd/ipweek3
+  - git clone https://github.com/dun1-cmmd/week4ip
   - cd ipweek3
   - code .
 
