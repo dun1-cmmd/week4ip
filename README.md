@@ -15,11 +15,6 @@ This is a pizza webapp that offers the following pizza type:
    
    Pizza Siciliana
 
-      DESIGN
-                         We offer the best designs withing the country
-                           we have both local and international markets that we sereve
-                           with our creative works that has seen the company make unimaginable profits.
-
 
 
 
