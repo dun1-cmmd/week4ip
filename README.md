@@ -9,7 +9,7 @@
 
 This is a pizza webapp that offers the following pizza type:
 
-   Napoletana 
+   Napoletana ,
 
    Pizza Fritta
    
