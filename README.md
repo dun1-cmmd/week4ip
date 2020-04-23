@@ -13,7 +13,7 @@ This is a pizza webapp that offers the following pizza type:
 
    Pizza Fritta,
    
-   Pizza Siciliana
+   Pizza Siciliana,
 
 
 
