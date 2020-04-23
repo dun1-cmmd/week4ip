@@ -7,7 +7,7 @@
 
 ### Description
 
-This is a companies portfolio web that does the following:
+This is a pizza webapp that offers the following pizza type:
 
     PRODUCT-MANAGEMENT
                       we manage the why, when, and what of the product that the developing team builds,
