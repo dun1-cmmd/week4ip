@@ -39,7 +39,7 @@ This is a pizza webapp that offers the following pizza type:
   1. Displays Form For Entering your order and price
       - INPUT: "size,price"
       -INPUT:  "toppings"
-      -INPUT: "location",
+      -INPUT: "location"
  
 
 ### Contributing to the Application
