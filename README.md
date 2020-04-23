@@ -54,7 +54,7 @@ This is a companies portfolio web that does the following:
 ### Contributing to the Application
 1. git clone
    
-   ``` git clone https://github.com/dun1-cmmd/ipweek3 ```
+   ``` git clone https://github.com/dun1-cmmd/week4ip``
 
 2. Set up the project locally (Refer to installation process)
 
