@@ -12,6 +12,8 @@ This is a pizza webapp that offers the following pizza type:
    Napoletana 
 
    Pizza Fritta
+   
+   Pizza Siciliana
 
       DESIGN
                          We offer the best designs withing the country
