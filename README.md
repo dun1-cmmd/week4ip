@@ -9,9 +9,7 @@
 
 This is a pizza webapp that offers the following pizza type:
 
-    PRODUCT-MANAGEMENT
-                      we manage the why, when, and what of the product that the developing team builds,
-                      this means we lead cross-functional teams from a product's conception all the way through to its launch.
+   Napoletana 
 
 
      DEVELOPMENT
